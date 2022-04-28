@@ -1,12 +1,25 @@
+body{
+    background: rgba(87, 86, 86, 0.488);
+}
+
 table {
     margin: auto;
     position: relative;
     border: 2px solid black;
+    background-color: rgba(30, 30, 30, 0.678);
 
 }
-
+ .btnContainer{
+    text-align: center;
+    padding-bottom: 10px;
+ }
+ #NewGameBtn{  
+    font-size: 20px;
+    color: rgb(120, 235, 235);; 
+    background-color: rgba(30, 30, 30, 0.678); 
+    } 
 .dark-cell {
-    background: rgb(62, 62, 62);
+    background: rgb(78, 78, 78);
     width: 50px;
     height: 50px;
     user-select: none;
@@ -14,7 +27,7 @@ table {
 }
 
 .light-cell {
-    background: white;
+    background: azure;
     width: 50px;
     height: 50px;
     user-select: none;
@@ -22,12 +35,12 @@ table {
 }
 
 .selected {
-    background: rgb(246, 220, 117);
+    background: rgb(120, 235, 235);
 
 }
 
 .possible-move {
-    background: rgba(248, 179, 94, 0.712);
+    background:  rgb(40, 235, 235);
 }
 
 .winnerDialog {
@@ -42,4 +55,8 @@ table {
 }
 .headLine {
     text-align: center;
+    color:rgb(120, 235, 235);
+    padding: 2px;
+    background: rgba(30, 30, 30, 0.678);
+    
 }

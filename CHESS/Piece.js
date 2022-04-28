@@ -5,7 +5,7 @@ class Piece {
     this.type = type;
     this.player = player;
   }
-
+   // get the enemy color
   getOpponent() {
     if (this.player === WHITE_PLAYER) {
       return BLACK_PLAYER;
