@@ -1,0 +1,45 @@
+table {
+    margin: auto;
+    position: relative;
+    border: 2px solid black;
+
+}
+
+.dark-cell {
+    background: rgb(62, 62, 62);
+    width: 50px;
+    height: 50px;
+    user-select: none;
+
+}
+
+.light-cell {
+    background: white;
+    width: 50px;
+    height: 50px;
+    user-select: none;
+
+}
+
+.selected {
+    background: rgb(246, 220, 117);
+
+}
+
+.possible-move {
+    background: rgba(248, 179, 94, 0.712);
+}
+
+.winnerDialog {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: wheat;
+    padding: 50px;
+    width: max-content;
+
+}
+.headLine {
+    text-align: center;
+}
